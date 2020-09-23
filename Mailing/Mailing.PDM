@@ -1,0 +1,749 @@
+[Root]
+Most Recent Package=Standard Setup Package 1.1
+
+
+[Package|Standard Setup Package 1|Root]
+SubWizProgID=PDWizard.SetupPkgSubWiz
+BuildFolder=f:\Mailing\setup
+
+[Package|Standard Setup Package 1|Configure DAO ISAMs]
+Applicable=Yes
+Jet 2.x=No
+
+[Package|Standard Setup Package 1|Configure DAO ODBC]
+JetWorkspace=
+ODBCDirect=
+
+[Package|Standard Setup Package 1|Files Found]
+CRXLAT32.DLL=C:\WINDOWS\Crystal\CRXLAT32.DLL
+cat.rpt=F:\Mailing\cat.rpt
+
+[Package|Standard Setup Package 1|Files Released]
+Kernel.DLL=
+prolabels.rpt=
+
+[Package|Standard Setup Package 1|Missing Dependency Information]
+C:\WIN\SYSTEM\CRYSTL32.OCX=
+C:\Program Files\Common Files\Microsoft Shared\DAO\DAO360.DLL=
+C:\WIN\SYSTEM\DAO360.DLL=
+
+[Package|Standard Setup Package 1|Out-of-Date Dependency Information]
+C:\WIN\SYSTEM\msmapi32.ocx=
+C:\WIN\SYSTEM\CRYSTL32.OCX=
+C:\WINDOWS\SYSTEM\CRYSTL32.OCX=
+
+[Package|Standard Setup Package 1|Files Added]
+mailing.mdb=
+fax.rpt=
+lab.rpt=
+repcompany.rpt=
+reppcompany.rpt=
+type.rpt=
+company.rpt=
+catlabels.rpt=
+typelabels.rpt=
+cat.rpt=
+catype.rpt=
+labcatype.rpt=
+labprodtype.rpt=
+prodtype.rpt=
+qcatype.rpt=
+qprodtype.rpt=
+F:\Mailing\onecom.rpt=
+F:\Mailing\prolables.rpt=
+
+[Package|Standard Setup Package 1|Files Removed]
+
+[Package|Standard Setup Package 1|Files In Project]
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\CO2C40EN.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\MSVCRT20.DLL=Yes
+C:\WINDOWS\Crystal\CRXLAT32.DLL=Yes
+F:\Mailing\Mailing.exe=Yes
+C:\WINDOWS\SYSTEM\MSVBVM60.DLL=Yes
+C:\WINDOWS\SYSTEM\OLEAUT32.DLL=Yes
+C:\WINDOWS\SYSTEM\OLEPRO32.DLL=Yes
+C:\WINDOWS\SYSTEM\ASYCFILT.DLL=Yes
+C:\WINDOWS\SYSTEM\STDOLE2.TLB=Yes
+C:\Program Files\Common Files\Microsoft Shared\DAO\DAO2535.TLB=Yes
+C:\Program Files\Common Files\Microsoft Shared\DAO\DAO350.DLL=Yes
+C:\WINDOWS\SYSTEM\MSJET35.DLL=Yes
+C:\WINDOWS\SYSTEM\MSJTER35.DLL=Yes
+C:\WINDOWS\SYSTEM\MSJINT35.DLL=Yes
+C:\WINDOWS\SYSTEM\VBAJET32.DLL=Yes
+C:\WINDOWS\SYSTEM\EXPSRV.DLL=Yes
+C:\WINDOWS\SYSTEM\MSRD2X35.DLL=Yes
+C:\WINDOWS\SYSTEM\MSREPL35.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\MSVCRT40.DLL=Yes
+C:\WINDOWS\SYSTEM\VB5DB.DLL=Yes
+C:\WINDOWS\SYSTEM\TABCTL32.OCX=Yes
+C:\WINDOWS\SYSTEM\comctl32.ocx=Yes
+C:\WINDOWS\SYSTEM\MSCOMM32.OCX=Yes
+C:\WINDOWS\SYSTEM\COMDLG32.OCX=Yes
+C:\WINDOWS\SYSTEM\CRYSTL32.OCX=Yes
+C:\WINDOWS\SYSTEM\CRPE32.DLL=Yes
+C:\WINDOWS\SYSTEM\IMPLODE.DLL=Yes
+C:\WINDOWS\SYSTEM\PG32.DLL=Yes
+C:\WINDOWS\SYSTEM\P2BBND.DLL=Yes
+C:\WINDOWS\SYSTEM\P2BDAO.DLL=Yes
+C:\WINDOWS\SYSTEM\P2CTDAO.DLL=Yes
+C:\WINDOWS\SYSTEM\P2IRDAO.DLL=Yes
+C:\WINDOWS\SYSTEM\P2SODBC.DLL=Yes
+C:\WINDOWS\Crystal\U2DDISK.DLL=Yes
+C:\WINDOWS\Crystal\U2DMAPI.DLL=Yes
+C:\WINDOWS\Crystal\U2FCR.DLL=Yes
+C:\WINDOWS\Crystal\U2FDIF.DLL=Yes
+C:\WINDOWS\Crystal\U2FHTML.DLL=Yes
+C:\WINDOWS\Crystal\U2FREC.DLL=Yes
+C:\WINDOWS\Crystal\U2FRTF.DLL=Yes
+C:\WINDOWS\Crystal\U2FSEPV.DLL=Yes
+C:\WINDOWS\Crystal\U2FTEXT.DLL=Yes
+C:\WINDOWS\Crystal\U2FWKS.DLL=Yes
+C:\WINDOWS\Crystal\U2FWORDW.DLL=Yes
+C:\WINDOWS\Crystal\U2FXLS.DLL=Yes
+C:\WINDOWS\SYSTEM\MSMAPI32.OCX=Yes
+C:\WINDOWS\SYSTEM\VB6STKIT.DLL=Yes
+F:\Mailing\Mailing.mdb=Yes
+F:\Mailing\fax.rpt=Yes
+F:\Mailing\lab.rpt=Yes
+F:\Mailing\repcompany.rpt=Yes
+F:\Mailing\reppcompany.rpt=Yes
+F:\Mailing\type.rpt=Yes
+F:\Mailing\company.rpt=Yes
+F:\Mailing\catlabels.rpt=Yes
+F:\Mailing\typelabels.rpt=Yes
+F:\Mailing\cat.rpt=Yes
+F:\Mailing\catype.rpt=Yes
+F:\Mailing\labcatype.rpt=Yes
+F:\Mailing\labprodtype.rpt=Yes
+F:\Mailing\prodtype.rpt=Yes
+F:\Mailing\qcatype.rpt=Yes
+F:\Mailing\Qprodtype.rpt=Yes
+F:\Mailing\onecom.rpt=Yes
+F:\Mailing\prolables.rpt=Yes
+
+[Package|Standard Setup Package 1|Configure Registry Files]
+Applicable=No
+
+[Package|Standard Setup Package 1|Configure Remote Servers]
+Applicable=No
+
+[Package|Standard Setup Package 1|Install Locations]
+F:\Mailing\screen\Mailing.exe=$(AppPath)
+C:\WIN\SYSTEM\MSVBVM60.DLL=$(WinSysPathSysFile)
+C:\WIN\SYSTEM\OLEAUT32.DLL=$(WinSysPathSysFile)
+C:\WIN\SYSTEM\OLEPRO32.DLL=$(WinSysPathSysFile)
+C:\WIN\SYSTEM\ASYCFILT.DLL=$(WinSysPathSysFile)
+C:\WIN\SYSTEM\STDOLE2.TLB=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=$(WinSysPathSysFile)
+C:\WIN\SYSTEM\TABCTL32.OCX=$(WinSysPath)
+C:\WIN\SYSTEM\COMCTL32.OCX=$(WinSysPath)
+C:\WIN\SYSTEM\CRYSTL32.OCX=$(WinSysPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=$(AppPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=$(WinPath)
+C:\WIN\SYSTEM\VB6STKIT.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=$(WinPath)
+F:\Mailing\Mailing.exe=$(AppPath)
+C:\Program Files\Common Files\Microsoft Shared\DAO\DAO360.DLL=$(WinSysPath)
+C:\WIN\SYSTEM\MSCOMM32.OCX=$(WinSysPath)
+F:\Mailing\Mailing.mdb=$(AppPath)
+C:\WIN\SYSTEM\DAO360.DLL=$(WinSysPath)
+C:\WIN\SYSTEM\COMDLG32.OCX=$(WinSysPath)
+C:\WIN\SYSTEM\CRPE32.DLL=$(WinSysPath)
+C:\WIN\SYSTEM\IMPLODE.DLL=$(WinSysPath)
+C:\WIN\SYSTEM\PG32.DLL=$(WinSysPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\CO2C40EN.DLL=$(WinSysPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\MSVCRT20.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\Crystal\CRXLAT32.DLL=$(WinPath)\Crystal
+C:\WIN\SYSTEM\P2BBND.DLL=$(WinSysPath)
+C:\WIN\SYSTEM\P2BDAO.DLL=$(WinSysPath)
+C:\WIN\SYSTEM\P2CTDAO.DLL=$(WinSysPath)
+C:\WIN\SYSTEM\P2IRDAO.DLL=$(WinSysPath)
+C:\WIN\SYSTEM\P2SODBC.DLL=$(WinSysPath)
+C:\WIN\SYSTEM\U2DDISK.DLL=$(WinPath)\Crystal
+C:\WIN\Crystal\U2DMAPI.DLL=$(WinPath)\Crystal
+C:\WIN\Crystal\U2FCR.DLL=$(WinPath)\Crystal
+C:\WIN\Crystal\U2FDIF.DLL=$(WinPath)\Crystal
+C:\WIN\Crystal\U2FHTML.DLL=$(WinPath)\Crystal
+C:\WIN\Crystal\U2FREC.DLL=$(WinPath)\Crystal
+C:\WIN\Crystal\U2FRTF.DLL=$(WinPath)\Crystal
+C:\WIN\Crystal\U2FSEPV.DLL=$(WinPath)\Crystal
+C:\WIN\Crystal\U2FTEXT.DLL=$(WinPath)\Crystal
+C:\WIN\Crystal\U2FWKS.DLL=$(WinPath)\Crystal
+C:\WIN\Crystal\U2FWORDW.DLL=$(WinPath)\Crystal
+C:\WIN\Crystal\U2FXLS.DLL=$(WinPath)\Crystal
+C:\WIN\SYSTEM\msmapi32.ocx=$(WinSysPath)
+F:\Mailing\fax.rpt=$(AppPath)
+F:\Mailing\lab.rpt=$(AppPath)
+F:\Mailing\repcompany.rpt=$(AppPath)
+F:\Mailing\reppcompany.rpt=$(AppPath)
+F:\Mailing\type.rpt=$(AppPath)
+F:\Mailing\company.rpt=$(AppPath)
+F:\Mailing\catlabels.rpt=$(AppPath)
+F:\Mailing\prolabels.rpt=$(AppPath)
+F:\Mailing\typelabels.rpt=$(AppPath)
+G:\Mailing\Mailing.exe=$(AppPath)
+G:\Mailing\Mailing.mdb=$(AppPath)
+G:\Mailing\fax.rpt=$(AppPath)
+G:\Mailing\lab.rpt=$(AppPath)
+G:\Mailing\repcompany.rpt=$(AppPath)
+G:\Mailing\reppcompany.rpt=$(AppPath)
+G:\Mailing\type.rpt=$(AppPath)
+G:\Mailing\company.rpt=$(AppPath)
+G:\Mailing\catlabels.rpt=$(AppPath)
+G:\Mailing\prolabels.rpt=$(AppPath)
+G:\Mailing\typelabels.rpt=$(AppPath)
+G:\Mailing\cat.rpt=$(AppPath)
+G:\Mailing\catype.rpt=$(AppPath)
+G:\Mailing\labcatype.rpt=$(AppPath)
+G:\Mailing\labprodtype.rpt=$(AppPath)
+G:\Mailing\prodtype.rpt=$(AppPath)
+G:\Mailing\qcatype.rpt=$(AppPath)
+G:\Mailing\qprodtype.rpt=$(AppPath)
+C:\WINDOWS\SYSTEM\MSVBVM60.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\OLEAUT32.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\OLEPRO32.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\ASYCFILT.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\STDOLE2.TLB=$(WinSysPathSysFile)
+C:\Program Files\Common Files\Microsoft Shared\DAO\DAO2535.TLB=$(MSDAOPath)
+C:\Program Files\Common Files\Microsoft Shared\DAO\DAO350.DLL=$(MSDAOPath)
+C:\WINDOWS\SYSTEM\MSJET35.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\MSJTER35.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\MSJINT35.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\VBAJET32.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\EXPSRV.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\MSRD2X35.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\MSREPL35.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\MSVCRT40.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\VB5DB.DLL=$(WinSysPath)
+C:\WINDOWS\SYSTEM\TABCTL32.OCX=$(WinSysPath)
+C:\WINDOWS\SYSTEM\comctl32.ocx=$(WinSysPath)
+C:\WINDOWS\SYSTEM\MSCOMM32.OCX=$(WinSysPath)
+C:\WINDOWS\SYSTEM\COMDLG32.OCX=$(WinSysPath)
+C:\WINDOWS\SYSTEM\CRYSTL32.OCX=$(WinSysPath)
+C:\WINDOWS\SYSTEM\CRPE32.DLL=$(WinSysPath)
+C:\WINDOWS\SYSTEM\IMPLODE.DLL=$(WinSysPath)
+C:\WINDOWS\SYSTEM\PG32.DLL=$(WinSysPath)
+C:\WINDOWS\SYSTEM\P2BBND.DLL=$(WinSysPath)
+C:\WINDOWS\SYSTEM\P2BDAO.DLL=$(WinSysPath)
+C:\WINDOWS\SYSTEM\P2CTDAO.DLL=$(WinSysPath)
+C:\WINDOWS\SYSTEM\P2IRDAO.DLL=$(WinSysPath)
+C:\WINDOWS\SYSTEM\P2SODBC.DLL=$(WinSysPath)
+C:\WINDOWS\Crystal\U2DDISK.DLL=$(WinPath)\Crystal
+C:\WINDOWS\Crystal\U2DMAPI.DLL=$(WinPath)\Crystal
+C:\WINDOWS\Crystal\U2FCR.DLL=$(WinPath)\Crystal
+C:\WINDOWS\Crystal\U2FDIF.DLL=$(WinPath)\Crystal
+C:\WINDOWS\Crystal\U2FHTML.DLL=$(WinPath)\Crystal
+C:\WINDOWS\Crystal\U2FREC.DLL=$(WinPath)\Crystal
+C:\WINDOWS\Crystal\U2FRTF.DLL=$(WinPath)\Crystal
+C:\WINDOWS\Crystal\U2FSEPV.DLL=$(WinPath)\Crystal
+C:\WINDOWS\Crystal\U2FTEXT.DLL=$(WinPath)\Crystal
+C:\WINDOWS\Crystal\U2FWKS.DLL=$(WinPath)\Crystal
+C:\WINDOWS\Crystal\U2FWORDW.DLL=$(WinPath)\Crystal
+C:\WINDOWS\Crystal\U2FXLS.DLL=$(WinPath)\Crystal
+C:\WINDOWS\SYSTEM\MSMAPI32.OCX=$(WinSysPath)
+C:\WINDOWS\SYSTEM\VB6STKIT.DLL=$(WinSysPathSysFile)
+F:\Mailing\cat.rpt=$(AppPath)
+F:\Mailing\catype.rpt=$(AppPath)
+F:\Mailing\labcatype.rpt=$(AppPath)
+F:\Mailing\labprodtype.rpt=$(AppPath)
+F:\Mailing\prodtype.rpt=$(AppPath)
+F:\Mailing\qcatype.rpt=$(AppPath)
+F:\Mailing\Qprodtype.rpt=$(AppPath)
+F:\Mailing\onecom.rpt=$(AppPath)
+F:\Mailing\prolables.rpt=$(AppPath)
+
+[Package|Standard Setup Package 1|Configure Shared Files]
+Applicable=Yes
+F:\Mailing\screen\Mailing.exe=No
+F:\Mailing\Mailing.exe=Yes
+F:\Mailing\Mailing.mdb=Yes
+F:\Mailing\fax.rpt=Yes
+F:\Mailing\lab.rpt=Yes
+F:\Mailing\repcompany.rpt=Yes
+F:\Mailing\reppcompany.rpt=Yes
+F:\Mailing\type.rpt=Yes
+F:\Mailing\company.rpt=Yes
+F:\Mailing\catlabels.rpt=Yes
+F:\Mailing\prolabels.rpt=Yes
+F:\Mailing\typelabels.rpt=Yes
+G:\Mailing\Mailing.exe=Yes
+G:\Mailing\Mailing.mdb=Yes
+G:\Mailing\fax.rpt=Yes
+G:\Mailing\lab.rpt=Yes
+G:\Mailing\repcompany.rpt=Yes
+G:\Mailing\reppcompany.rpt=Yes
+G:\Mailing\type.rpt=Yes
+G:\Mailing\company.rpt=Yes
+G:\Mailing\catlabels.rpt=Yes
+G:\Mailing\prolabels.rpt=Yes
+G:\Mailing\typelabels.rpt=Yes
+G:\Mailing\cat.rpt=Yes
+G:\Mailing\catype.rpt=Yes
+G:\Mailing\labcatype.rpt=Yes
+G:\Mailing\labprodtype.rpt=Yes
+G:\Mailing\prodtype.rpt=Yes
+G:\Mailing\qcatype.rpt=Yes
+G:\Mailing\qprodtype.rpt=Yes
+F:\Mailing\cat.rpt=Yes
+F:\Mailing\catype.rpt=Yes
+F:\Mailing\labcatype.rpt=Yes
+F:\Mailing\labprodtype.rpt=Yes
+F:\Mailing\prodtype.rpt=Yes
+F:\Mailing\qcatype.rpt=Yes
+F:\Mailing\Qprodtype.rpt=Yes
+F:\Mailing\onecom.rpt=Yes
+F:\Mailing\prolables.rpt=Yes
+
+[Package|Standard Setup Package 1|Distribution]
+Type=single
+Size=1.44 MB
+Title=Mailing
+
+[Package|Standard Setup Package 1|IconGroups]
+Group0=Mailing
+PrivateGroup0=True
+Parent0=$(Programs)
+
+[Package|Standard Setup Package 1|Mailing]
+Icon1=Mailing.exe
+Title1=Mailing
+StartIn1=$(AppPath)
+Key1=Icon1
+
+[Package|Standard Setup Package 1|Package]
+PackageFolder=f:\Mailing\setup
+ProjectFolder=F:\Mailing
+ServerSideCab=
+File1=f:\Mailing\setup\setup.exe
+File2=f:\Mailing\setup\Setup.Lst
+File3=f:\Mailing\setup\Mailing.CAB
+Handler1=PDWizard.FolderDplySubWiz
+Handler2=PDWizard.WebPostDplySubWiz
+
+
+[Package|Standard Setup Package 1.1|Mailing]
+Icon1=Mailing.exe
+Title1=Mailing
+StartIn1=$(AppPath)
+Key1=Icon1
+
+[Package|Standard Setup Package 1.1|Root]
+SubWizProgID=PDWizard.SetupPkgSubWiz
+BuildFolder=h:\Mailing\setup
+
+[Package|Standard Setup Package 1.1|Configure DAO ISAMs]
+Applicable=Yes
+Jet 2.x=No
+Xbase=No
+Excel=No
+Exchange=No
+Text=No
+Lotus=No
+Paradox=No
+
+[Package|Standard Setup Package 1.1|Configure DAO ODBC]
+JetWorkspace=
+ODBCDirect=
+
+[Package|Standard Setup Package 1.1|Files Found]
+CRXLAT32.DLL=C:\WINDOWS\Crystal\CRXLAT32.DLL
+catlable.rpt=H:\Mailing\catlable.rpt
+company.rpt=H:\Mailing\company.rpt
+
+[Package|Standard Setup Package 1.1|Files Released]
+Kernel.DLL=
+prolabels.rpt=
+catlabels.rpt=
+comper.rpt=
+catype.rpt=
+cat.rpt=
+
+[Package|Standard Setup Package 1.1|Missing Dependency Information]
+C:\WIN\SYSTEM\CRYSTL32.OCX=
+C:\Program Files\Common Files\Microsoft Shared\DAO\DAO360.DLL=
+C:\WIN\SYSTEM\DAO360.DLL=
+C:\WINDOWS\SYSTEM\CRYSTL32.OCX=
+
+[Package|Standard Setup Package 1.1|Out-of-Date Dependency Information]
+C:\WIN\SYSTEM\msmapi32.ocx=
+C:\WIN\SYSTEM\CRYSTL32.OCX=
+C:\WINDOWS\SYSTEM\CRYSTL32.OCX=
+C:\WINDOWS\SYSTEM32\CRYSTL32.OCX=
+C:\WINDOWS\SYSTEM32\COMDLG32.OCX=
+
+[Package|Standard Setup Package 1.1|Files Added]
+h:\mailing\mailing.mdb=
+h:\mailing\fax.rpt=
+h:\mailing\lab.rpt=
+h:\mailing\repcompany.rpt=
+h:\mailing\reppcompany.rpt=
+h:\mailing\type.rpt=
+h:\mailing\company.rpt=
+h:\mailing\typelabels.rpt=
+h:\mailing\labcatype.rpt=
+h:\mailing\labprodtype.rpt=
+h:\mailing\prodtype.rpt=
+h:\mailing\qcatype.rpt=
+h:\mailing\qprodtype.rpt=
+h:\mailing\onecom.rpt=
+h:\mailing\prolables.rpt=
+h:\mailing\catlable.rpt=
+h:\mailing\perfax.rpt=
+h:\mailing\perlabel.rpt=
+h:\mailing\person.rpt=
+
+[Package|Standard Setup Package 1.1|Files Removed]
+c:\windows\system\expsrv.dll=
+c:\program files\microsoft visual studio\vb98\wizards\pdwizard\redist\msvcrt20.dll=
+
+[Package|Standard Setup Package 1.1|Files In Project]
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=Yes
+C:\Program Files\Common Files\Microsoft Shared\DAO\DAO350.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\MSVCRT40.DLL=Yes
+H:\Mailing\Mailing.exe=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\CO2C40EN.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\MSVCRT20.DLL=No
+C:\WINDOWS\Crystal\CRXLAT32.DLL=Yes
+C:\WINDOWS\Crystal\U2DDISK.DLL=Yes
+C:\WINDOWS\Crystal\U2DMAPI.DLL=Yes
+C:\WINDOWS\Crystal\U2FCR.DLL=Yes
+C:\WINDOWS\Crystal\U2FDIF.DLL=Yes
+C:\WINDOWS\Crystal\U2FHTML.DLL=Yes
+C:\WINDOWS\Crystal\U2FREC.DLL=Yes
+C:\WINDOWS\Crystal\U2FRTF.DLL=Yes
+C:\WINDOWS\Crystal\U2FSEPV.DLL=Yes
+C:\WINDOWS\Crystal\U2FTEXT.DLL=Yes
+C:\WINDOWS\Crystal\U2FWKS.DLL=Yes
+C:\WINDOWS\Crystal\U2FWORDW.DLL=Yes
+C:\WINDOWS\Crystal\U2FXLS.DLL=Yes
+H:\Mailing\Mailing.mdb=Yes
+H:\Mailing\fax.rpt=Yes
+H:\Mailing\lab.rpt=Yes
+H:\Mailing\repcompany.rpt=Yes
+H:\Mailing\reppcompany.rpt=Yes
+H:\Mailing\type.rpt=Yes
+H:\Mailing\company.rpt=Yes
+H:\Mailing\typelabels.rpt=Yes
+H:\Mailing\labcatype.rpt=Yes
+H:\Mailing\labprodtype.rpt=Yes
+H:\Mailing\prodtype.rpt=Yes
+H:\Mailing\qcatype.rpt=Yes
+H:\Mailing\qprodtype.rpt=Yes
+H:\Mailing\onecom.rpt=Yes
+H:\Mailing\prolables.rpt=Yes
+H:\Mailing\catlable.rpt=Yes
+H:\Mailing\PERFAX.RPT=Yes
+H:\Mailing\perlabel.rpt=Yes
+H:\Mailing\person.rpt=Yes
+C:\WINDOWS\SYSTEM32\MSVBVM60.DLL=Yes
+C:\WINDOWS\SYSTEM32\oleaut32.dll=Yes
+C:\WINDOWS\SYSTEM32\olepro32.dll=Yes
+C:\WINDOWS\SYSTEM32\asycfilt.dll=Yes
+C:\WINDOWS\SYSTEM32\stdole2.tlb=Yes
+C:\WINDOWS\SYSTEM32\MSJET35.DLL=Yes
+C:\WINDOWS\SYSTEM32\MSJTER35.DLL=Yes
+C:\WINDOWS\SYSTEM32\MSJINT35.DLL=Yes
+C:\WINDOWS\SYSTEM32\vbajet32.dll=Yes
+C:\WINDOWS\SYSTEM32\expsrv.dll=Yes
+C:\WINDOWS\SYSTEM32\MSRD2X35.DLL=Yes
+C:\WINDOWS\SYSTEM32\MSREPL35.DLL=Yes
+C:\WINDOWS\SYSTEM32\VB5DB.DLL=Yes
+C:\WINDOWS\SYSTEM32\TABCTL32.OCX=Yes
+C:\WINDOWS\SYSTEM32\COMCTL32.OCX=Yes
+C:\WINDOWS\SYSTEM32\MSCOMM32.OCX=Yes
+C:\WINDOWS\SYSTEM32\COMDLG32.OCX=Yes
+C:\WINDOWS\SYSTEM32\CRYSTL32.OCX=Yes
+C:\WINDOWS\SYSTEM32\CRPE32.DLL=Yes
+C:\WINDOWS\SYSTEM32\IMPLODE.DLL=Yes
+C:\WINDOWS\SYSTEM32\PG32.DLL=Yes
+C:\WINDOWS\SYSTEM32\P2BBND.DLL=Yes
+C:\WINDOWS\SYSTEM32\P2BDAO.DLL=Yes
+C:\WINDOWS\SYSTEM32\P2CTDAO.DLL=Yes
+C:\WINDOWS\SYSTEM32\P2IRDAO.DLL=Yes
+C:\WINDOWS\SYSTEM32\P2SODBC.DLL=Yes
+C:\WINDOWS\SYSTEM32\MSMAPI32.OCX=Yes
+C:\WINDOWS\SYSTEM32\VB6STKIT.DLL=Yes
+
+[Package|Standard Setup Package 1.1|Configure Registry Files]
+Applicable=No
+
+[Package|Standard Setup Package 1.1|Configure Remote Servers]
+Applicable=No
+
+[Package|Standard Setup Package 1.1|Install Locations]
+F:\Mailing\screen\Mailing.exe=$(AppPath)
+C:\WIN\SYSTEM\MSVBVM60.DLL=$(WinSysPathSysFile)
+C:\WIN\SYSTEM\OLEAUT32.DLL=$(WinSysPathSysFile)
+C:\WIN\SYSTEM\OLEPRO32.DLL=$(WinSysPathSysFile)
+C:\WIN\SYSTEM\ASYCFILT.DLL=$(WinSysPathSysFile)
+C:\WIN\SYSTEM\STDOLE2.TLB=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=$(WinSysPathSysFile)
+C:\WIN\SYSTEM\TABCTL32.OCX=$(WinSysPath)
+C:\WIN\SYSTEM\COMCTL32.OCX=$(WinSysPath)
+C:\WIN\SYSTEM\CRYSTL32.OCX=$(WinSysPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=$(AppPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=$(WinPath)
+C:\WIN\SYSTEM\VB6STKIT.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=$(WinPath)
+F:\Mailing\Mailing.exe=$(AppPath)
+C:\Program Files\Common Files\Microsoft Shared\DAO\DAO360.DLL=$(WinSysPath)
+C:\WIN\SYSTEM\MSCOMM32.OCX=$(WinSysPath)
+F:\Mailing\Mailing.mdb=$(AppPath)
+C:\WIN\SYSTEM\DAO360.DLL=$(WinSysPath)
+C:\WIN\SYSTEM\COMDLG32.OCX=$(WinSysPath)
+C:\WIN\SYSTEM\CRPE32.DLL=$(WinSysPath)
+C:\WIN\SYSTEM\IMPLODE.DLL=$(WinSysPath)
+C:\WIN\SYSTEM\PG32.DLL=$(WinSysPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\CO2C40EN.DLL=$(WinSysPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\MSVCRT20.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\Crystal\CRXLAT32.DLL=$(WinPath)\Crystal
+C:\WIN\SYSTEM\P2BBND.DLL=$(WinSysPath)
+C:\WIN\SYSTEM\P2BDAO.DLL=$(WinSysPath)
+C:\WIN\SYSTEM\P2CTDAO.DLL=$(WinSysPath)
+C:\WIN\SYSTEM\P2IRDAO.DLL=$(WinSysPath)
+C:\WIN\SYSTEM\P2SODBC.DLL=$(WinSysPath)
+C:\WIN\SYSTEM\U2DDISK.DLL=$(WinPath)\Crystal
+C:\WIN\Crystal\U2DMAPI.DLL=$(WinPath)\Crystal
+C:\WIN\Crystal\U2FCR.DLL=$(WinPath)\Crystal
+C:\WIN\Crystal\U2FDIF.DLL=$(WinPath)\Crystal
+C:\WIN\Crystal\U2FHTML.DLL=$(WinPath)\Crystal
+C:\WIN\Crystal\U2FREC.DLL=$(WinPath)\Crystal
+C:\WIN\Crystal\U2FRTF.DLL=$(WinPath)\Crystal
+C:\WIN\Crystal\U2FSEPV.DLL=$(WinPath)\Crystal
+C:\WIN\Crystal\U2FTEXT.DLL=$(WinPath)\Crystal
+C:\WIN\Crystal\U2FWKS.DLL=$(WinPath)\Crystal
+C:\WIN\Crystal\U2FWORDW.DLL=$(WinPath)\Crystal
+C:\WIN\Crystal\U2FXLS.DLL=$(WinPath)\Crystal
+C:\WIN\SYSTEM\msmapi32.ocx=$(WinSysPath)
+F:\Mailing\fax.rpt=$(AppPath)
+F:\Mailing\lab.rpt=$(AppPath)
+F:\Mailing\repcompany.rpt=$(AppPath)
+F:\Mailing\reppcompany.rpt=$(AppPath)
+F:\Mailing\type.rpt=$(AppPath)
+F:\Mailing\company.rpt=$(AppPath)
+F:\Mailing\catlabels.rpt=$(AppPath)
+F:\Mailing\prolabels.rpt=$(AppPath)
+F:\Mailing\typelabels.rpt=$(AppPath)
+G:\Mailing\Mailing.exe=$(AppPath)
+G:\Mailing\Mailing.mdb=$(AppPath)
+G:\Mailing\fax.rpt=$(AppPath)
+G:\Mailing\lab.rpt=$(AppPath)
+G:\Mailing\repcompany.rpt=$(AppPath)
+G:\Mailing\reppcompany.rpt=$(AppPath)
+G:\Mailing\type.rpt=$(AppPath)
+G:\Mailing\company.rpt=$(AppPath)
+G:\Mailing\catlabels.rpt=$(AppPath)
+G:\Mailing\prolabels.rpt=$(AppPath)
+G:\Mailing\typelabels.rpt=$(AppPath)
+G:\Mailing\cat.rpt=$(AppPath)
+G:\Mailing\catype.rpt=$(AppPath)
+G:\Mailing\labcatype.rpt=$(AppPath)
+G:\Mailing\labprodtype.rpt=$(AppPath)
+G:\Mailing\prodtype.rpt=$(AppPath)
+G:\Mailing\qcatype.rpt=$(AppPath)
+G:\Mailing\qprodtype.rpt=$(AppPath)
+C:\WINDOWS\SYSTEM\MSVBVM60.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\OLEAUT32.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\OLEPRO32.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\ASYCFILT.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\STDOLE2.TLB=$(WinSysPathSysFile)
+C:\Program Files\Common Files\Microsoft Shared\DAO\DAO2535.TLB=$(MSDAOPath)
+C:\Program Files\Common Files\Microsoft Shared\DAO\DAO350.DLL=$(MSDAOPath)
+C:\WINDOWS\SYSTEM\MSJET35.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\MSJTER35.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\MSJINT35.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\VBAJET32.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\EXPSRV.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\MSRD2X35.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\MSREPL35.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\MSVCRT40.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\VB5DB.DLL=$(WinSysPath)
+C:\WINDOWS\SYSTEM\TABCTL32.OCX=$(WinSysPath)
+C:\WINDOWS\SYSTEM\comctl32.ocx=$(WinSysPath)
+C:\WINDOWS\SYSTEM\MSCOMM32.OCX=$(WinSysPath)
+C:\WINDOWS\SYSTEM\COMDLG32.OCX=$(WinSysPath)
+C:\WINDOWS\SYSTEM\CRYSTL32.OCX=$(WinSysPath)
+C:\WINDOWS\SYSTEM\CRPE32.DLL=$(WinSysPath)
+C:\WINDOWS\SYSTEM\IMPLODE.DLL=$(WinSysPath)
+C:\WINDOWS\SYSTEM\PG32.DLL=$(WinSysPath)
+C:\WINDOWS\SYSTEM\P2BBND.DLL=$(WinSysPath)
+C:\WINDOWS\SYSTEM\P2BDAO.DLL=$(WinSysPath)
+C:\WINDOWS\SYSTEM\P2CTDAO.DLL=$(WinSysPath)
+C:\WINDOWS\SYSTEM\P2IRDAO.DLL=$(WinSysPath)
+C:\WINDOWS\SYSTEM\P2SODBC.DLL=$(WinSysPath)
+C:\WINDOWS\Crystal\U2DDISK.DLL=$(WinPath)\Crystal
+C:\WINDOWS\Crystal\U2DMAPI.DLL=$(WinPath)\Crystal
+C:\WINDOWS\Crystal\U2FCR.DLL=$(WinPath)\Crystal
+C:\WINDOWS\Crystal\U2FDIF.DLL=$(WinPath)\Crystal
+C:\WINDOWS\Crystal\U2FHTML.DLL=$(WinPath)\Crystal
+C:\WINDOWS\Crystal\U2FREC.DLL=$(WinPath)\Crystal
+C:\WINDOWS\Crystal\U2FRTF.DLL=$(WinPath)\Crystal
+C:\WINDOWS\Crystal\U2FSEPV.DLL=$(WinPath)\Crystal
+C:\WINDOWS\Crystal\U2FTEXT.DLL=$(WinPath)\Crystal
+C:\WINDOWS\Crystal\U2FWKS.DLL=$(WinPath)\Crystal
+C:\WINDOWS\Crystal\U2FWORDW.DLL=$(WinPath)\Crystal
+C:\WINDOWS\Crystal\U2FXLS.DLL=$(WinPath)\Crystal
+C:\WINDOWS\SYSTEM\MSMAPI32.OCX=$(WinSysPath)
+C:\WINDOWS\SYSTEM\VB6STKIT.DLL=$(WinSysPathSysFile)
+F:\Mailing\cat.rpt=$(AppPath)
+F:\Mailing\catype.rpt=$(AppPath)
+F:\Mailing\labcatype.rpt=$(AppPath)
+F:\Mailing\labprodtype.rpt=$(AppPath)
+F:\Mailing\prodtype.rpt=$(AppPath)
+F:\Mailing\qcatype.rpt=$(AppPath)
+F:\Mailing\Qprodtype.rpt=$(AppPath)
+F:\Mailing\onecom.rpt=$(AppPath)
+F:\Mailing\prolables.rpt=$(AppPath)
+F:\Mailing\CATLABLE.RPT=$(AppPath)
+F:\Mailing\COMPER.RPT=$(AppPath)
+F:\Mailing\PERFAX.RPT=$(AppPath)
+F:\Mailing\PERLABEL.RPT=$(AppPath)
+F:\Mailing\PERSON.RPT=$(AppPath)
+C:\WINDOWS\SYSTEM32\msvbvm60.dll=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM32\oleaut32.dll=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM32\olepro32.dll=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM32\asycfilt.dll=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM32\stdole2.tlb=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM32\MSJET35.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM32\MSJTER35.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM32\MSJINT35.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM32\vbajet32.dll=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM32\expsrv.dll=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM32\MSRD2X35.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM32\MSREPL35.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM32\VB5DB.DLL=$(WinSysPath)
+C:\WINDOWS\SYSTEM32\TABCTL32.OCX=$(WinSysPath)
+C:\WINDOWS\SYSTEM32\COMCTL32.OCX=$(WinSysPath)
+C:\WINDOWS\SYSTEM32\MSCOMM32.OCX=$(WinSysPath)
+C:\WINDOWS\SYSTEM32\COMDLG32.OCX=$(WinSysPath)
+C:\WINDOWS\SYSTEM32\CRYSTL32.OCX=$(WinSysPath)
+C:\WINDOWS\SYSTEM32\CRPE32.DLL=$(WinSysPath)
+C:\WINDOWS\SYSTEM32\IMPLODE.DLL=$(WinSysPath)
+C:\WINDOWS\SYSTEM32\PG32.DLL=$(WinSysPath)
+C:\WINDOWS\SYSTEM32\P2BBND.DLL=$(WinSysPath)
+C:\WINDOWS\SYSTEM32\P2BDAO.DLL=$(WinSysPath)
+C:\WINDOWS\SYSTEM32\P2CTDAO.DLL=$(WinSysPath)
+C:\WINDOWS\SYSTEM32\P2IRDAO.DLL=$(WinSysPath)
+C:\WINDOWS\SYSTEM32\P2SODBC.DLL=$(WinSysPath)
+C:\WINDOWS\SYSTEM32\MSMAPI32.OCX=$(WinSysPath)
+C:\WINDOWS\SYSTEM32\VB6STKIT.DLL=$(WinSysPathSysFile)
+H:\Mailing\Mailing.exe=$(AppPath)
+H:\Mailing\Mailing.mdb=$(AppPath)
+H:\Mailing\fax.rpt=$(AppPath)
+H:\Mailing\lab.rpt=$(AppPath)
+H:\Mailing\repcompany.rpt=$(AppPath)
+H:\Mailing\reppcompany.rpt=$(AppPath)
+H:\Mailing\type.rpt=$(AppPath)
+H:\Mailing\company.rpt=$(AppPath)
+H:\Mailing\typelabels.rpt=$(AppPath)
+H:\Mailing\labcatype.rpt=$(AppPath)
+H:\Mailing\labprodtype.rpt=$(AppPath)
+H:\Mailing\prodtype.rpt=$(AppPath)
+H:\Mailing\qcatype.rpt=$(AppPath)
+H:\Mailing\qprodtype.rpt=$(AppPath)
+H:\Mailing\onecom.rpt=$(AppPath)
+H:\Mailing\prolables.rpt=$(AppPath)
+H:\Mailing\catlable.rpt=$(AppPath)
+H:\Mailing\PERFAX.RPT=$(AppPath)
+H:\Mailing\perlabel.rpt=$(AppPath)
+H:\Mailing\person.rpt=$(AppPath)
+
+[Package|Standard Setup Package 1.1|Configure Shared Files]
+Applicable=Yes
+F:\Mailing\screen\Mailing.exe=No
+F:\Mailing\Mailing.exe=No
+F:\Mailing\Mailing.mdb=No
+F:\Mailing\fax.rpt=No
+F:\Mailing\lab.rpt=No
+F:\Mailing\repcompany.rpt=No
+F:\Mailing\reppcompany.rpt=No
+F:\Mailing\type.rpt=No
+F:\Mailing\company.rpt=No
+F:\Mailing\catlabels.rpt=Yes
+F:\Mailing\prolabels.rpt=Yes
+F:\Mailing\typelabels.rpt=No
+G:\Mailing\Mailing.exe=Yes
+G:\Mailing\Mailing.mdb=Yes
+G:\Mailing\fax.rpt=Yes
+G:\Mailing\lab.rpt=Yes
+G:\Mailing\repcompany.rpt=Yes
+G:\Mailing\reppcompany.rpt=Yes
+G:\Mailing\type.rpt=Yes
+G:\Mailing\company.rpt=Yes
+G:\Mailing\catlabels.rpt=Yes
+G:\Mailing\prolabels.rpt=Yes
+G:\Mailing\typelabels.rpt=Yes
+G:\Mailing\cat.rpt=Yes
+G:\Mailing\catype.rpt=Yes
+G:\Mailing\labcatype.rpt=Yes
+G:\Mailing\labprodtype.rpt=Yes
+G:\Mailing\prodtype.rpt=Yes
+G:\Mailing\qcatype.rpt=Yes
+G:\Mailing\qprodtype.rpt=Yes
+F:\Mailing\cat.rpt=No
+F:\Mailing\catype.rpt=No
+F:\Mailing\labcatype.rpt=No
+F:\Mailing\labprodtype.rpt=No
+F:\Mailing\prodtype.rpt=No
+F:\Mailing\qcatype.rpt=No
+F:\Mailing\Qprodtype.rpt=No
+F:\Mailing\onecom.rpt=No
+F:\Mailing\prolables.rpt=No
+F:\Mailing\CATLABLE.RPT=No
+F:\Mailing\COMPER.RPT=No
+F:\Mailing\PERFAX.RPT=No
+F:\Mailing\PERLABEL.RPT=No
+F:\Mailing\PERSON.RPT=No
+H:\Mailing\Mailing.exe=Yes
+H:\Mailing\Mailing.mdb=Yes
+H:\Mailing\fax.rpt=No
+H:\Mailing\lab.rpt=No
+H:\Mailing\repcompany.rpt=No
+H:\Mailing\reppcompany.rpt=No
+H:\Mailing\type.rpt=No
+H:\Mailing\company.rpt=No
+H:\Mailing\typelabels.rpt=No
+H:\Mailing\labcatype.rpt=No
+H:\Mailing\labprodtype.rpt=No
+H:\Mailing\prodtype.rpt=No
+H:\Mailing\qcatype.rpt=No
+H:\Mailing\qprodtype.rpt=No
+H:\Mailing\onecom.rpt=No
+H:\Mailing\prolables.rpt=No
+H:\Mailing\catlable.rpt=No
+H:\Mailing\PERFAX.RPT=No
+H:\Mailing\perlabel.rpt=No
+H:\Mailing\person.rpt=No
+
+[Package|Standard Setup Package 1.1|Distribution]
+Type=single
+Size=1.2 MB
+Title=Mailing
+
+[Package|Standard Setup Package 1.1|IconGroups]
+Group0=IMEX.NET
+PrivateGroup0=False
+Parent0=$(Programs)
+
+[Package|Standard Setup Package 1.1|IMEX.NET]
+Icon1=Mailing.exe
+Title1=Mailing
+StartIn1=$(AppPath)
+Key1=Icon1
+
+[Package|Standard Setup Package 1.1|Package]
+PackageFolder=h:\Mailing\setup
+ProjectFolder=H:\Mailing
+ServerSideCab=
+File1=h:\Mailing\setup\setup.exe
+File2=h:\Mailing\setup\Setup.Lst
+File3=h:\Mailing\setup\Mailing.CAB
+Handler1=PDWizard.FolderDplySubWiz
+Handler2=PDWizard.WebPostDplySubWiz
