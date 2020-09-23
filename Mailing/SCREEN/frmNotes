@@ -1,0 +1,319 @@
+VERSION 5.00
+Begin VB.Form frmNotes 
+   BorderStyle     =   3  'Fixed Dialog
+   Caption         =   "Form1"
+   ClientHeight    =   5940
+   ClientLeft      =   45
+   ClientTop       =   330
+   ClientWidth     =   9870
+   Icon            =   "frmNotes.frx":0000
+   LinkTopic       =   "Form1"
+   MaxButton       =   0   'False
+   MDIChild        =   -1  'True
+   MinButton       =   0   'False
+   ScaleHeight     =   5940
+   ScaleWidth      =   9870
+   ShowInTaskbar   =   0   'False
+   Begin VB.CommandButton Command1 
+      Caption         =   "Lables"
+      Height          =   285
+      Left            =   7245
+      TabIndex        =   8
+      Top             =   5490
+      Width           =   975
+   End
+   Begin VB.CommandButton cmdPrint 
+      Caption         =   "Print"
+      Height          =   360
+      Left            =   1005
+      TabIndex        =   7
+      Top             =   5415
+      Width           =   1335
+   End
+   Begin VB.ComboBox CmbCompanyName 
+      Height          =   315
+      Left            =   6360
+      TabIndex        =   5
+      Top             =   120
+      Width           =   3225
+   End
+   Begin VB.ComboBox CmbCategoryname 
+      Height          =   315
+      Left            =   1410
+      TabIndex        =   2
+      Top             =   45
+      Width           =   3225
+   End
+   Begin VB.ComboBox CmbProduct 
+      BeginProperty Font 
+         Name            =   "Times New Roman"
+         Size            =   8.25
+         Charset         =   178
+         Weight          =   400
+         Underline       =   0   'False
+         Italic          =   0   'False
+         Strikethrough   =   0   'False
+      EndProperty
+      Height          =   330
+      ItemData        =   "frmNotes.frx":0442
+      Left            =   1410
+      List            =   "frmNotes.frx":0444
+      TabIndex        =   1
+      Top             =   360
+      Width           =   3225
+   End
+   Begin VB.TextBox txtnots 
+      Alignment       =   1  'Right Justify
+      BeginProperty Font 
+         Name            =   "Traditional Arabic"
+         Size            =   9.75
+         Charset         =   178
+         Weight          =   400
+         Underline       =   0   'False
+         Italic          =   0   'False
+         Strikethrough   =   0   'False
+      EndProperty
+      Height          =   4455
+      Left            =   360
+      MultiLine       =   -1  'True
+      ScrollBars      =   3  'Both
+      TabIndex        =   0
+      Top             =   840
+      Width           =   9330
+   End
+   Begin VB.Label Label1 
+      AutoSize        =   -1  'True
+      BackColor       =   &H00C7E6FE&
+      BackStyle       =   0  'Transparent
+      Caption         =   "Company name:"
+      BeginProperty Font 
+         Name            =   "Times New Roman"
+         Size            =   9
+         Charset         =   178
+         Weight          =   700
+         Underline       =   0   'False
+         Italic          =   0   'False
+         Strikethrough   =   0   'False
+      EndProperty
+      Height          =   225
+      Index           =   15
+      Left            =   4920
+      TabIndex        =   6
+      Top             =   135
+      Width           =   1290
+   End
+   Begin VB.Label Label1 
+      AutoSize        =   -1  'True
+      BackColor       =   &H00C7E6FE&
+      BackStyle       =   0  'Transparent
+      Caption         =   "Category name:"
+      BeginProperty Font 
+         Name            =   "Times New Roman"
+         Size            =   9
+         Charset         =   178
+         Weight          =   700
+         Underline       =   0   'False
+         Italic          =   0   'False
+         Strikethrough   =   0   'False
+      EndProperty
+      Height          =   225
+      Index           =   4
+      Left            =   15
+      TabIndex        =   4
+      Top             =   45
+      Width           =   1260
+   End
+   Begin VB.Label Label1 
+      AutoSize        =   -1  'True
+      BackColor       =   &H00C7E6FE&
+      BackStyle       =   0  'Transparent
+      Caption         =   "Product name:"
+      BeginProperty Font 
+         Name            =   "Times New Roman"
+         Size            =   9
+         Charset         =   178
+         Weight          =   700
+         Underline       =   0   'False
+         Italic          =   0   'False
+         Strikethrough   =   0   'False
+      EndProperty
+      Height          =   225
+      Index           =   14
+      Left            =   120
+      TabIndex        =   3
+      Top             =   390
+      Width           =   1140
+   End
+End
+Attribute VB_Name = "frmNotes"
+Attribute VB_GlobalNameSpace = False
+Attribute VB_Creatable = False
+Attribute VB_PredeclaredId = True
+Attribute VB_Exposed = False
+Private Sub cmbCategoryname_Click()
+Set ws = CreateWorkspace("", "admin", "")
+Set db = ws.OpenDatabase(App.Path & "\Mailing.mdb")
+SqLst1 = "Select Productname From QProduct"
+SqLst1 = SqLst1 & " WHERE Categoryname = '" & frmNotes.CmbCategoryname.Text & "'"
+Set rs1 = db.OpenRecordset(SqLst1)
+frmNotes.CmbProduct.Clear
+    Do While Not rs1.EOF
+        frmNotes.CmbProduct.AddItem rs1("Productname")
+       rs1.MoveNext
+    Loop
+    SqLst1 = "Select Companyname From Qcatcomp"
+SqLst1 = SqLst1 & " WHERE Categoryname = '" & frmNotes.CmbCategoryname.Text & "'"
+Set rs1 = db.OpenRecordset(SqLst1)
+ frmNotes.CmbCompanyName.Clear
+    Do While Not rs1.EOF
+        frmNotes.CmbCompanyName.AddItem rs1("Companyname")
+       rs1.MoveNext
+    Loop
+End Sub
+
+Private Sub CmbProduct_Click()
+Set ws = CreateWorkspace("", "admin", "")
+Set db = ws.OpenDatabase(App.Path & "\Mailing.mdb")
+SqLst1 = "Select Companyname From Qprocomp"
+SqLst1 = SqLst1 & " WHERE Productname = '" & frmNotes.CmbProduct.Text & "'"
+Set rs1 = db.OpenRecordset(SqLst1)
+ frmNotes.CmbCompanyName.Clear
+    Do While Not rs1.EOF
+        frmNotes.CmbCompanyName.AddItem rs1("Companyname")
+       rs1.MoveNext
+    Loop
+End Sub
+
+
+Private Sub cmdPrint_Click()
+
+    frmMain.CrystalReport1.ReportFileName = (App.Path & "\fax.rpt")
+    frmMain.CrystalReport1.SelectionFormula = ""
+    frmMain.CrystalReport1.Destination = 0
+    frmMain.CrystalReport1.WindowState = crptMaximized
+     frmMain.CrystalReport1.DataFiles(0) = (App.Path & "\Mailing.mdb")
+    frmMain.CrystalReport1.Action = 1
+'======================================================
+' ElseIf frmrepcompany.CmbCategoryname.Text = "" And frmrepcompany.CmbCompanyName.Text = "" And _
+'    frmrepcompany.cmbCity.Text = "" And frmrepcompany.Option1.Value = True And frmrepcompany.Option2.Value = False Then
+'    frmMain.CrystalReport1.ReportFileName = (App.Path & "\report\Notscompany.rpt")
+'    frmMain.CrystalReport1.SelectionFormula = ""
+'    frmMain.CrystalReport1.Destination = 0
+'     frmMain.CrystalReport1.WindowState = crptMaximized
+'     frmMain.CrystalReport1.DataFiles(0) = (App.Path & "\planDataBase.mdb")
+'    frmMain.CrystalReport1.Action = 1
+'    '======================================================
+' ElseIf frmrepcompany.CmbCategoryname.Text = "" And frmrepcompany.CmbCompanyName.Text = "" And _
+'    frmrepcompany.cmbCity.Text = "" And frmrepcompany.Option1.Value = False And frmrepcompany.Option2.Value = True Then
+'    frmMain.CrystalReport1.ReportFileName = (App.Path & "\report\AScompany.rpt")
+'    frmMain.CrystalReport1.SelectionFormula = ""
+'    frmMain.CrystalReport1.Destination = 0
+'     frmMain.CrystalReport1.WindowState = crptMaximized
+'     frmMain.CrystalReport1.DataFiles(0) = (App.Path & "\planDataBase.mdb")
+'    frmMain.CrystalReport1.Action = 1
+''======================================================
+'    ElseIf frmrepcompany.CmbCategoryname.Text <> "" And frmrepcompany.CmbCompanyName.Text = "" And _
+'    frmrepcompany.cmbCity.Text = "" And frmrepcompany.Option1.Value = False And frmrepcompany.Option2.Value = False Then
+'    frmMain.CrystalReport1.ReportFileName = (App.Path & "\report\company.rpt")
+'    frmMain.CrystalReport1.SelectionFormula = "{Qcompany.Categoryname}=" & _
+'    "'" & frmrepcompany.CmbCategoryname.Text & "'"
+'
+'    frmMain.CrystalReport1.Destination = 0
+'    frmMain.CrystalReport1.WindowState = crptMaximized
+'    frmMain.CrystalReport1.DataFiles(0) = (App.Path & "\planDataBase.mdb")
+'    frmMain.CrystalReport1.Action = 1
+'    'iResult = frmMain.CrystalReport1.PrintReport
+'    '======================================================
+'    ElseIf frmrepcompany.CmbCompanyName.Text <> "" And _
+'    frmrepcompany.cmbCity.Text = "" And frmrepcompany.Option1.Value = False And frmrepcompany.Option2.Value = False Then
+'    frmMain.CrystalReport1.ReportFileName = (App.Path & "\report\company.rpt")
+'    frmMain.CrystalReport1.SelectionFormula = "{Qcompany.Companyname}=" & _
+'    "'" & frmrepcompany.CmbCompanyName.Text & "'"
+'    frmMain.CrystalReport1.Destination = 0
+'     frmMain.CrystalReport1.WindowState = crptMaximized
+    ' frmMain.CrystalReport1.DataFiles(0) = (App.Path & "\planDataBase.mdb")
+'    frmMain.CrystalReport1.Action = 1
+'     '======================================================
+'    ElseIf frmrepcompany.CmbCompanyName.Text <> "" And _
+    frmrepcompany.cmbCity.Text = "" And frmrepcompany.Option1.Value = True And frmrepcompany.Option2.Value = False Then
+'    frmMain.CrystalReport1.ReportFileName = (App.Path & "\report\Notscompany.rpt")
+'    frmMain.CrystalReport1.SelectionFormula = "{Qcompany.Companyname}=" & _
+    "'" & frmrepcompany.CmbCompanyName.Text & "'"
+'    frmMain.CrystalReport1.Destination = 0
+'     frmMain.CrystalReport1.WindowState = crptMaximized
+'     frmMain.CrystalReport1.DataFiles(0) = (App.Path & "\planDataBase.mdb")
+'    frmMain.CrystalReport1.Action = 1
+   ' iResult = frmMain.CrystalReport1.PrintReport
+   '======================================================
+'    ElseIf frmrepcompany.CmbCompanyName.Text <> "" And _
+'    frmrepcompany.cmbCity.Text = "" And frmrepcompany.Option1.Value = False And frmrepcompany.Option2.Value = True Then
+'    frmMain.CrystalReport1.ReportFileName = (App.Path & "\report\AScompany.rpt")
+'    frmMain.CrystalReport1.SelectionFormula = "{Qcompany.Companyname}=" & _
+'    "'" & frmrepcompany.CmbCompanyName.Text & "'"
+'    frmMain.CrystalReport1.Destination = 0
+'     frmMain.CrystalReport1.WindowState = crptMaximized
+'     frmMain.CrystalReport1.DataFiles(0) = (App.Path & "\planDataBase.mdb")
+'    frmMain.CrystalReport1.Action = 1
+'   ' iResult = frmMain.CrystalReport1.PrintReport
+     '======================================================
+'   ElseIf frmrepcompany.CmbCategoryname.Text = "" And frmrepcompany.CmbCategoryname.Text = "" And _
+    frmrepcompany.cmbCity.Text <> "" And frmrepcompany.Option1.Value = False And frmrepcompany.Option2.Value = False Then
+'    frmMain.CrystalReport1.ReportFileName = (App.Path & "\report\company.rpt")
+'    frmMain.CrystalReport1.SelectionFormula = "{Qcompany.city}=" & _
+'    "'" & frmrepcompany.cmbCity.Text & "'"
+'    frmMain.CrystalReport1.Destination = 0
+'     frmMain.CrystalReport1.WindowState = crptMaximized
+'     frmMain.CrystalReport1.DataFiles(0) = (App.Path & "\planDataBase.mdb")
+'    frmMain.CrystalReport1.Action = 1
+     '======================================================
+'   ElseIf frmrepcompany.CmbCategoryname.Text = "" And frmrepcompany.CmbCategoryname.Text = "" And _
+'    frmrepcompany.cmbCity.Text <> "" And frmrepcompany.Option1.Value = True And frmrepcompany.Option2.Value = False Then
+'    frmMain.CrystalReport1.ReportFileName = (App.Path & "\report\Notscompany.rpt")
+'    frmMain.CrystalReport1.SelectionFormula = "{Qcompany.city}=" & _
+'    "'" & frmrepcompany.cmbCity.Text & "'"
+'    frmMain.CrystalReport1.Destination = 0
+'     frmMain.CrystalReport1.WindowState = crptMaximized
+'     frmMain.CrystalReport1.DataFiles(0) = (App.Path & "\planDataBase.mdb")
+'    frmMain.CrystalReport1.Action = 1
+'     '======================================================
+'   ElseIf frmrepcompany.CmbCategoryname.Text = "" And frmrepcompany.CmbCategoryname.Text = "" And _
+'    frmrepcompany.cmbCity.Text <> "" And frmrepcompany.Option1.Value = False And frmrepcompany.Option2.Value = True Then
+'    frmMain.CrystalReport1.ReportFileName = (App.Path & "\report\AScompany.rpt")
+'    frmMain.CrystalReport1.SelectionFormula = "{Qcompany.city}=" & _
+'    "'" & frmrepcompany.cmbCity.Text & "'"
+'    frmMain.CrystalReport1.Destination = 0
+'     frmMain.CrystalReport1.WindowState = crptMaximized
+'     frmMain.CrystalReport1.DataFiles(0) = (App.Path & "\planDataBase.mdb")
+'    frmMain.CrystalReport1.Action = 1
+    'iResult = frmMain.CrystalReport1.PrintReport
+     '======================================================
+'     ElseIf frmrepcompany.CmbCategoryname.Text <> "" And frmrepcompany.CmbCompanyName.Text = "" And _
+'    frmrepcompany.cmbCity.Text <> "" And frmrepcompany.Option1.Value = False And frmrepcompany.Option2.Value = False Then
+'    frmMain.CrystalReport1.ReportFileName = (App.Path & "\report\company.rpt")
+'    frmMain.CrystalReport1.SelectionFormula = "{Qcompany.Categoryname}=" & _
+'    "'" & frmrepcompany.CmbCategoryname.Text & "'" & " And {Qcompany.city}=" & _
+'    "'" & frmrepcompany.cmbCity.Text & "'"
+'    frmMain.CrystalReport1.Destination = 0
+'     frmMain.CrystalReport1.WindowState = crptMaximized
+'     frmMain.CrystalReport1.DataFiles(0) = (App.Path & "\planDataBase.mdb")
+'    frmMain.CrystalReport1.Action = 1
+    'iResult = frmMain.CrystalReport1.PrintReport
+
+End Sub
+
+
+
+Private Sub Command1_Click()
+ frmMain.CrystalReport1.ReportFileName = (App.Path & "\lab.rpt")
+    frmMain.CrystalReport1.SelectionFormula = ""
+    frmMain.CrystalReport1.Destination = 0
+    frmMain.CrystalReport1.WindowState = crptMaximized
+     frmMain.CrystalReport1.DataFiles(0) = (App.Path & "\Mailing.mdb")
+    frmMain.CrystalReport1.Action = 1
+End Sub
+
+Private Sub Form_Activate()
+display.display (Me.Name)
+Add.Mode
+End Sub
+
